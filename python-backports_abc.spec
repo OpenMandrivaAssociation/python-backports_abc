@@ -55,6 +55,7 @@ python2 setup.py install --root=%buildroot
 %doc CHANGES.rst README.rst LICENSE
 %{python3_sitelib}/%{srcname}.py
 %{python3_sitelib}/%{srcname}*.egg-info/
+%{python3_sitelib}/__pycache__/*
 
 
 %changelog
