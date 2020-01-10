@@ -28,7 +28,7 @@ Summary:        %{sum}
 
 %prep
 %setup -qn %{srcname}-%{version}
-%apply_patches
+%autopatch -p1
 
 cp -a . %py2dir
 
